@@ -1,0 +1,97 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:,regular,700,900,900&display=swap);
+body{
+    max-width: 810px;
+    margin: 0 auto;
+    font-family: "Lato";
+    font-size: 16px;
+    line-height: 1.6;
+    color: #424551;
+}
+.wrapper{
+    min-height: 100%;
+	overflow: hidden;
+}
+.title{
+    font-size: 46px;
+    font-weight: 900;
+    line-height: 1.3;
+    margin-bottom: 26px;
+}
+.date{
+    background-image: url('../img/Calendar.svg');
+    background-repeat: no-repeat;
+    background-position: 5px 5px;
+    background-size: 16px;
+    padding-left: 29px;
+}
+.date p, .time p{
+    line-height: 1.6;
+    color: #787a80;
+}
+.time{
+    background-image: url('../img/Clock.svg');
+    background-repeat: no-repeat;
+    background-position: 5px 5px;
+    background-size: 16px;
+    padding-left: 29px;
+}
+.share p{
+    font-weight: 700;
+    color: #1e212c;
+    padding-right: 12px;
+    display: inline-block;
+}
+.facebook img, .twitter img, .linkedin img{
+    display: inline-block;
+    width: 20px;
+}
+img:first-child{
+    margin-right: 12px;
+}
+.image{
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+.text p:first-child{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.5;
+    margin-bottom: 24px;
+}
+.text p:nth-child(2){
+    margin-bottom: 24px;
+}
+.text p:nth-child(3){
+    margin-bottom: 48px;
+}
+.text p:nth-child(4){
+    background-image: url('../img/rectangle.svg'), url('../img/rectangle2.svg');
+    background-repeat: no-repeat;
+    background-position: 0 0, 16px 0;
+}
+.rectangle{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.5;
+    color:#1e212c;
+    padding-left: 58px;
+    margin-bottom: 48px;
+}
+.text p:nth-child(5){
+    margin-bottom: 24px;
+}
+.list-item{
+    background-image: url('../img/check.svg');
+    background-repeat: no-repeat;
+    background-position: 0 6px;
+    padding-left: 32px;
+}
+.list-item:last-child{
+    margin-bottom: 24px;
+}
+
+
+
+
+
+
